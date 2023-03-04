@@ -1,5 +1,4 @@
 import { createResource, createSignal } from "solid-js";
-import ask from "~/lib/llm-api";
 import "./Counter.css";
 
 export default function Counter() {
