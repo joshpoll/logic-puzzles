@@ -23,6 +23,11 @@ npm run dev
 npm run dev -- --open
 ```
 
+**ignore secrets**
+```
+git update-index --skip-worktree .env
+```
+
 ## Building
 
 Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
